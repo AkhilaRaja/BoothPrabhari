@@ -10,6 +10,7 @@ import { VoterComponent } from './voter/voter.component';
 import { CandidateComponent } from './candidate/candidate.component';
 import { ReligionComponent } from './religion/religion.component';
 import { CasteComponent } from './caste/caste.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,10 @@ const routes: Routes = [
   {
     path: 'homepage',
     component: HomepageComponent
+  },
+  {
+    path: 'aboutme',
+    component: AboutMeComponent
   },
   {
     path: 'home',

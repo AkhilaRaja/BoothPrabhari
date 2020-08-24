@@ -1,0 +1,12 @@
+.header-title{
+    color: black;
+    font-size: 35px;
+    padding-top: 32px;
+    margin-left: 2%;
+    position: relative;
+}
+.header-image{
+    padding-top:16px;
+    margin-left: 2%;
+    position: relative;
+}
