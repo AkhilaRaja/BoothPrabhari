@@ -26,6 +26,10 @@ import { VoterDialogComponent } from './voter-dialog/voter-dialog.component';
 import { VoterUploadDialogComponent } from './voter-upload-dialog/voter-upload-dialog.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { BulletListComponent } from './bullet-list/bullet-list.component';
+import { ProfileRahulComponent } from './profile-rahul/profile-rahul.component';
+import { UserComponent } from './user/user.component';
+import { UserDialogComponent } from './user-dialog/user-dialog.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +52,11 @@ import { AboutMeComponent } from './about-me/about-me.component';
     VoterDialogComponent,
     VoterUploadDialogComponent,
     HomepageComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    BulletListComponent,
+    ProfileRahulComponent,
+    UserComponent,
+    UserDialogComponent,
   ],
   imports: [
     BrowserModule,

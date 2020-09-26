@@ -11,6 +11,8 @@ import { CandidateComponent } from './candidate/candidate.component';
 import { ReligionComponent } from './religion/religion.component';
 import { CasteComponent } from './caste/caste.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { ProfileRahulComponent } from './profile-rahul/profile-rahul.component';
+import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
   {
@@ -22,8 +24,12 @@ const routes: Routes = [
     component: HomepageComponent
   },
   {
-    path: 'aboutme',
+    path: 'AkhilaRajan',
     component: AboutMeComponent
+  },
+  {
+    path: 'RahulRPillai',
+    component: ProfileRahulComponent
   },
   {
     path: 'home',
@@ -60,6 +66,10 @@ const routes: Routes = [
   {
     path: 'caste',
     component: CasteComponent
+  },
+  {
+    path: 'user',
+    component: UserComponent
   }
 ];
 

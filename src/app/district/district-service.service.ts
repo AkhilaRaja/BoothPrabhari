@@ -50,7 +50,7 @@ export class DistrictServiceService {
 
   //update district
   public updateDistrictData(districtEntity: DistrictEntity) {
-    this.httpClient.post("/api/district/updateDistrictData", districtEntity).toPromise().then(data => {
+    this.httpClient.put("/api/district/updateDistrictData", districtEntity).toPromise().then(data => {
     });
   }
 
